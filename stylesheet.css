@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  height: 450px;
+  padding: 0 15px;
+  margin: 0 auto;
+  letter-spacing: 3px;
+}
+
+.top-wrapper {
+  background-image: url(image/backgroundimage.jpg);
+  position: relative;
+  padding: 180px 0 100px 0;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper::before {
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+}
+
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-size: 45px;
+  letter-spacing: 7px;
+  font-family: Penna,Mamelon;
+  margin-top: 200px;
+}
+
+.top-wrapper p {
+  opacity: 0.8;
+  font-family: Penna,Mamelon;
+  font-size: 30px;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  font-family: Penna,Mamelon;
+  font-size: 23px;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+span {
+  font-family: "Hiragino Kaku Gothic ProN";
+  font-size: 10px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(192, 192, 192, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 150px;
+  margin-top: 18px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  font-family: Penna,Mamelon;
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.work-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  font-family: Penna,Mamelon;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+  font-family: Penna,Mamelon;
+}
+
+.heading h2 {
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
+
+.work {
+  float: left;
+  width: 20%;
+  padding: 0 25px;
+}
+
+.work-icon {
+  position: relative;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 12px;
+  font-family: Penna,Mamelon;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+
+.message {
+  padding: 10px 40px;
+  background-color: #B3AEB5;
+  cursor: pointer;
+  box-shadow: 0 7px #939393;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.btn-container {
+  width: 1170px;
+  height: 250px;
+  padding: 0 15px;
+  margin: 0 auto;
+  letter-spacing: 3px;
+}
+
+.footer-container {
+  width: 1170px;
+  height: 80px;
+  padding: 0 15px;
+  margin: 0 auto;
+  letter-spacing: 3px;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer {
+  padding-top: 30px;
+}
